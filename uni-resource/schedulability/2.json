@@ -1,0 +1,2736 @@
+{
+    "utilization": 0.5,
+    "no-tasks": 100,
+    "hc-to-total-ratio": 0.5,
+    "resource-unit-min": 1,
+    "resource-unit-max": 1,
+    "no-resources": 10,
+    "task-critical-sections_min": 0,
+    "task-critical-sections_max": 8,
+    "resource-units": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "tasks": [
+        {
+            "period": 4748.57793043285,
+            "utilization": 0.01566851731575203,
+            "relative-deadline": 74.40317552818505,
+            "criticality": "LC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 41.009008909805665,
+                    "end": 64.8570327907772
+                },
+                {
+                    "resource": 9,
+                    "begin": 58.235053113737514,
+                    "end": 60.90314775833849
+                }
+            ]
+        },
+        {
+            "period": 6556.743094902191,
+            "utilization": 0.0076961320967472435,
+            "relative-deadline": 50.46156098280261,
+            "criticality": "LC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 9,
+                    "begin": 22.632002433366587,
+                    "end": 36.946683024997455
+                },
+                {
+                    "resource": 5,
+                    "begin": 24.973041852734372,
+                    "end": 31.189178185125805
+                },
+                {
+                    "resource": 8,
+                    "begin": 39.30464541926715,
+                    "end": 40.0475335647178
+                },
+                {
+                    "resource": 6,
+                    "begin": 40.5072685760713,
+                    "end": 48.44851456463303
+                },
+                {
+                    "resource": 3,
+                    "begin": 41.26349245938628,
+                    "end": 48.01385500713282
+                },
+                {
+                    "resource": 7,
+                    "begin": 48.547255501415556,
+                    "end": 49.25255576292201
+                },
+                {
+                    "resource": 1,
+                    "begin": 49.26627270013321,
+                    "end": 50.448200499251236
+                },
+                {
+                    "resource": 4,
+                    "begin": 49.65429048225728,
+                    "end": 50.02729459520479
+                }
+            ]
+        },
+        {
+            "period": 7343.585445863531,
+            "utilization": 0.005577093721813087,
+            "relative-deadline": 40.95586428572346,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 3.772205433163503,
+                    "end": 17.700877782265913
+                }
+            ]
+        },
+        {
+            "period": 9728.826518522,
+            "utilization": 0.0026027375835502853,
+            "relative-deadline": 25.32158242359789,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 2,
+                    "begin": 3.861964202114444,
+                    "end": 7.274764022533098
+                },
+                {
+                    "resource": 6,
+                    "begin": 4.6953691073224775,
+                    "end": 7.26013596502766
+                },
+                {
+                    "resource": 4,
+                    "begin": 5.217087780525188,
+                    "end": 6.631806601456079
+                },
+                {
+                    "resource": 8,
+                    "begin": 12.184621638853315,
+                    "end": 18.719426194630604
+                },
+                {
+                    "resource": 7,
+                    "begin": 20.879976805236677,
+                    "end": 20.997505882783972
+                },
+                {
+                    "resource": 3,
+                    "begin": 22.702982586271457,
+                    "end": 24.089666669450036
+                },
+                {
+                    "resource": 1,
+                    "begin": 22.715290443055974,
+                    "end": 23.732919991805787
+                }
+            ]
+        },
+        {
+            "period": 2952.6161641333165,
+            "utilization": 0.006820854904272644,
+            "relative-deadline": 20.139366443563414,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 15.489002106927027,
+                    "end": 18.402110425768555
+                }
+            ]
+        },
+        {
+            "period": 5386.345134044659,
+            "utilization": 0.014558159737300402,
+            "relative-deadline": 78.4152728616529,
+            "criticality": "LC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 7,
+                    "begin": 10.462051143186857,
+                    "end": 25.471259984697813
+                },
+                {
+                    "resource": 4,
+                    "begin": 10.838967988557854,
+                    "end": 18.49101911137
+                },
+                {
+                    "resource": 3,
+                    "begin": 12.608834015381168,
+                    "end": 13.880754070709486
+                },
+                {
+                    "resource": 10,
+                    "begin": 59.87606431303605,
+                    "end": 70.10016015768107
+                },
+                {
+                    "resource": 1,
+                    "begin": 66.80427428257885,
+                    "end": 69.27136753393499
+                },
+                {
+                    "resource": 2,
+                    "begin": 70.93531461113083,
+                    "end": 77.47582957919012
+                },
+                {
+                    "resource": 5,
+                    "begin": 71.92799485503849,
+                    "end": 74.20749903271971
+                }
+            ]
+        },
+        {
+            "period": 6549.190967658351,
+            "utilization": 0.0009456480334617545,
+            "relative-deadline": 6.193229559331605,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 7113.302672582055,
+            "utilization": 0.002209812694232205,
+            "relative-deadline": 15.719066543787694,
+            "criticality": "HC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 7,
+                    "begin": 6.333713835967615,
+                    "end": 11.305712479792128
+                },
+                {
+                    "resource": 8,
+                    "begin": 11.862219369721236,
+                    "end": 14.13903923810494
+                },
+                {
+                    "resource": 9,
+                    "begin": 12.672196064993802,
+                    "end": 13.422762563186621
+                },
+                {
+                    "resource": 3,
+                    "begin": 14.255077925339156,
+                    "end": 14.758024828969816
+                },
+                {
+                    "resource": 2,
+                    "begin": 15.28887595838534,
+                    "end": 15.36465709630157
+                }
+            ]
+        },
+        {
+            "period": 4245.956307131131,
+            "utilization": 0.00483856402480487,
+            "relative-deadline": 20.54433143857803,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 7.402392458673981,
+                    "end": 15.045619109813298
+                }
+            ]
+        },
+        {
+            "period": 4698.459392426684,
+            "utilization": 0.0012360757216805518,
+            "relative-deadline": 5.80765158428058,
+            "criticality": "HC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 0.27076943980515567,
+                    "end": 2.020488644865835
+                },
+                {
+                    "resource": 3,
+                    "begin": 4.365897425950628,
+                    "end": 5.286121452307446
+                },
+                {
+                    "resource": 4,
+                    "begin": 4.734275449397928,
+                    "end": 5.137037450249088
+                },
+                {
+                    "resource": 1,
+                    "begin": 4.767897643049999,
+                    "end": 5.050897082501703
+                },
+                {
+                    "resource": 7,
+                    "begin": 5.375551349323814,
+                    "end": 5.58628087924166
+                },
+                {
+                    "resource": 6,
+                    "begin": 5.467342479721318,
+                    "end": 5.488831349893084
+                },
+                {
+                    "resource": 5,
+                    "begin": 5.74005323359236,
+                    "end": 5.752220421577337
+                },
+                {
+                    "resource": 8,
+                    "begin": 5.742374362104961,
+                    "end": 5.7429913712683565
+                }
+            ]
+        },
+        {
+            "period": 10000.0,
+            "utilization": 0.0008453238843181832,
+            "relative-deadline": 8.453238843181833,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 3811.8477020737528,
+            "utilization": 0.0016192193375022534,
+            "relative-deadline": 6.1722175108113495,
+            "criticality": "LC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 1.7881688767871833,
+                    "end": 4.649986370228117
+                },
+                {
+                    "resource": 7,
+                    "begin": 2.879172565453951,
+                    "end": 4.472824101703838
+                },
+                {
+                    "resource": 3,
+                    "begin": 5.931963621977725,
+                    "end": 5.963154255557949
+                },
+                {
+                    "resource": 4,
+                    "begin": 5.981529594239595,
+                    "end": 6.1613875578867185
+                }
+            ]
+        },
+        {
+            "period": 4920.805995856353,
+            "utilization": 0.0012856009216965503,
+            "relative-deadline": 6.326192723762838,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 2.64954482876875,
+                    "end": 5.209611172506424
+                },
+                {
+                    "resource": 10,
+                    "begin": 2.8841096444257315,
+                    "end": 3.8658658863140207
+                },
+                {
+                    "resource": 8,
+                    "begin": 5.810257515305618,
+                    "end": 6.184379255386388
+                },
+                {
+                    "resource": 2,
+                    "begin": 5.967811714660682,
+                    "end": 6.1601943703159785
+                },
+                {
+                    "resource": 9,
+                    "begin": 6.20141252440893,
+                    "end": 6.291828363160864
+                },
+                {
+                    "resource": 5,
+                    "begin": 6.207577323692366,
+                    "end": 6.263207814527894
+                },
+                {
+                    "resource": 7,
+                    "begin": 6.229013160801436,
+                    "end": 6.257341515558173
+                }
+            ]
+        },
+        {
+            "period": 10000.0,
+            "utilization": 0.010967226366127014,
+            "relative-deadline": 109.67226366127014,
+            "criticality": "HC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 6.117012592760719,
+                    "end": 56.02481106049839
+                },
+                {
+                    "resource": 1,
+                    "begin": 18.078151106890942,
+                    "end": 51.501675891275234
+                },
+                {
+                    "resource": 8,
+                    "begin": 21.89425311838945,
+                    "end": 33.518512979299224
+                }
+            ]
+        },
+        {
+            "period": 7952.595996235466,
+            "utilization": 0.007264996595697515,
+            "relative-deadline": 57.77558283960835,
+            "criticality": "LC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 11.648058432538635,
+                    "end": 39.0078076237122
+                },
+                {
+                    "resource": 3,
+                    "begin": 49.59812888686701,
+                    "end": 50.594931240966254
+                },
+                {
+                    "resource": 4,
+                    "begin": 52.95238974008031,
+                    "end": 53.417461612696066
+                },
+                {
+                    "resource": 6,
+                    "begin": 53.108288864192026,
+                    "end": 53.35635429731893
+                },
+                {
+                    "resource": 7,
+                    "begin": 53.111347430453435,
+                    "end": 53.17759099442936
+                },
+                {
+                    "resource": 9,
+                    "begin": 53.14918430869588,
+                    "end": 53.16030619751255
+                }
+            ]
+        },
+        {
+            "period": 3650.271229979857,
+            "utilization": 0.009633583234516463,
+            "relative-deadline": 35.165191722571734,
+            "criticality": "LC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 6.478024028563388,
+                    "end": 7.315622662421181
+                },
+                {
+                    "resource": 5,
+                    "begin": 9.309630694661534,
+                    "end": 24.117211272940978
+                },
+                {
+                    "resource": 3,
+                    "begin": 32.86110476076778,
+                    "end": 33.84100359973896
+                },
+                {
+                    "resource": 7,
+                    "begin": 34.060348470625534,
+                    "end": 34.08699185850008
+                },
+                {
+                    "resource": 10,
+                    "begin": 34.074468666880065,
+                    "end": 34.0806531550618
+                },
+                {
+                    "resource": 6,
+                    "begin": 34.075131852037615,
+                    "end": 34.07535676771131
+                },
+                {
+                    "resource": 1,
+                    "begin": 34.38222088055108,
+                    "end": 35.11509818586945
+                }
+            ]
+        },
+        {
+            "period": 6595.617252109258,
+            "utilization": 0.021193480847854995,
+            "relative-deadline": 139.78408791235955,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 9,
+                    "begin": 48.74208556904318,
+                    "end": 79.13046814142665
+                },
+                {
+                    "resource": 8,
+                    "begin": 50.25900162559475,
+                    "end": 57.22072966061071
+                },
+                {
+                    "resource": 5,
+                    "begin": 98.95981406564295,
+                    "end": 121.14622764900378
+                },
+                {
+                    "resource": 4,
+                    "begin": 106.87107066335075,
+                    "end": 110.53217667875785
+                }
+            ]
+        },
+        {
+            "period": 6576.938883003723,
+            "utilization": 0.003949301658697946,
+            "relative-deadline": 25.974315639801617,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 2.7290156551513824,
+                    "end": 14.363201462578575
+                },
+                {
+                    "resource": 6,
+                    "begin": 18.699353791765457,
+                    "end": 19.967413164976115
+                },
+                {
+                    "resource": 4,
+                    "begin": 19.059652727527254,
+                    "end": 19.227317100207056
+                },
+                {
+                    "resource": 5,
+                    "begin": 24.58467176767049,
+                    "end": 24.59860374533473
+                }
+            ]
+        },
+        {
+            "period": 5024.336119643315,
+            "utilization": 0.004574073200388107,
+            "relative-deadline": 22.981681194602462,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 18.422693323936695,
+                    "end": 19.587462122024718
+                }
+            ]
+        },
+        {
+            "period": 3261.7879584936,
+            "utilization": 0.00022015085873544615,
+            "relative-deadline": 0.7180854200753038,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 0.31914146620743766,
+                    "end": 0.48235884758673564
+                }
+            ]
+        },
+        {
+            "period": 2946.7826061843057,
+            "utilization": 0.004681875545891889,
+            "relative-deadline": 13.796469422953871,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 2,
+                    "begin": 2.2221339186523896,
+                    "end": 6.653542057759607
+                },
+                {
+                    "resource": 4,
+                    "begin": 3.135137337595425,
+                    "end": 4.123389209326069
+                },
+                {
+                    "resource": 9,
+                    "begin": 9.958222973853843,
+                    "end": 11.616022532403568
+                },
+                {
+                    "resource": 6,
+                    "begin": 12.531978051605485,
+                    "end": 12.985737579904898
+                }
+            ]
+        },
+        {
+            "period": 4116.273091283821,
+            "utilization": 0.00026798333806532515,
+            "relative-deadline": 1.1030926033907131,
+            "criticality": "HC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 0.3732040934412189,
+                    "end": 0.7380219621358097
+                },
+                {
+                    "resource": 10,
+                    "begin": 0.40334130820866965,
+                    "end": 0.46519054033576
+                },
+                {
+                    "resource": 9,
+                    "begin": 0.40740186106164117,
+                    "end": 0.44727096628995844
+                },
+                {
+                    "resource": 6,
+                    "begin": 0.8645704828329862,
+                    "end": 0.9892127138752136
+                },
+                {
+                    "resource": 2,
+                    "begin": 1.01430628338034,
+                    "end": 1.0337780211756118
+                },
+                {
+                    "resource": 7,
+                    "begin": 1.0554776382838011,
+                    "end": 1.0783350690387863
+                }
+            ]
+        },
+        {
+            "period": 622.0738661392852,
+            "utilization": 0.010703607748140609,
+            "relative-deadline": 6.658434653524237,
+            "criticality": "HC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 1.357722353428674,
+                    "end": 3.926929410233827
+                },
+                {
+                    "resource": 7,
+                    "begin": 5.15618659058104,
+                    "end": 5.709790550846657
+                },
+                {
+                    "resource": 1,
+                    "begin": 5.351242742599546,
+                    "end": 5.439993552316919
+                },
+                {
+                    "resource": 2,
+                    "begin": 5.396636286459655,
+                    "end": 5.418151701984725
+                },
+                {
+                    "resource": 6,
+                    "begin": 5.412668550052637,
+                    "end": 5.414872329664144
+                }
+            ]
+        },
+        {
+            "period": 7355.290194469331,
+            "utilization": 0.005431113327226067,
+            "relative-deadline": 39.94741460079759,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 2,
+                    "begin": 11.158509580406173,
+                    "end": 23.24315404559575
+                },
+                {
+                    "resource": 10,
+                    "begin": 26.483714341773982,
+                    "end": 32.41167456586732
+                }
+            ]
+        },
+        {
+            "period": 6357.110126112704,
+            "utilization": 0.0021291016862821643,
+            "relative-deadline": 13.53493388938798,
+            "criticality": "HC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 6194.077659626044,
+            "utilization": 0.0013555499418304584,
+            "relative-deadline": 8.396381611199425,
+            "criticality": "LC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 2,
+                    "begin": 2.160250030469479,
+                    "end": 3.1042099645465937
+                },
+                {
+                    "resource": 3,
+                    "begin": 2.43295626007013,
+                    "end": 2.624581520012378
+                },
+                {
+                    "resource": 4,
+                    "begin": 7.057457670856339,
+                    "end": 7.19618135080867
+                },
+                {
+                    "resource": 8,
+                    "begin": 7.078772512025449,
+                    "end": 7.139191893221265
+                }
+            ]
+        },
+        {
+            "period": 9733.49695550456,
+            "utilization": 0.0018490036735489546,
+            "relative-deadline": 17.9972716272055,
+            "criticality": "HC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 8.728038127588034,
+                    "end": 17.087902101470736
+                },
+                {
+                    "resource": 10,
+                    "begin": 17.219785521343297,
+                    "end": 17.719829286763567
+                },
+                {
+                    "resource": 1,
+                    "begin": 17.724331863184812,
+                    "end": 17.759792548143487
+                },
+                {
+                    "resource": 5,
+                    "begin": 17.806740870848845,
+                    "end": 17.859184876833258
+                },
+                {
+                    "resource": 4,
+                    "begin": 17.814581468282004,
+                    "end": 17.820187442476872
+                },
+                {
+                    "resource": 7,
+                    "begin": 17.910648974432284,
+                    "end": 17.944128941222317
+                }
+            ]
+        },
+        {
+            "period": 988.7301409373558,
+            "utilization": 0.011318886409931284,
+            "relative-deadline": 11.19132415534528,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 7.556063625797579,
+                    "end": 8.439699853999599
+                }
+            ]
+        },
+        {
+            "period": 3772.7302113892447,
+            "utilization": 4.533086958652399e-05,
+            "relative-deadline": 0.17102114119762493,
+            "criticality": "HC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 2,
+                    "begin": 0.10030625260758329,
+                    "end": 0.14945361606229945
+                },
+                {
+                    "resource": 4,
+                    "begin": 0.10465412963267233,
+                    "end": 0.1394923321738743
+                },
+                {
+                    "resource": 8,
+                    "begin": 0.15272541099092612,
+                    "end": 0.16124847601793757
+                }
+            ]
+        },
+        {
+            "period": 586.402991113714,
+            "utilization": 0.0012819775993770377,
+            "relative-deadline": 0.7517554988154735,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 0.25409057617213643,
+                    "end": 0.4400117049360117
+                },
+                {
+                    "resource": 7,
+                    "begin": 0.545399039124399,
+                    "end": 0.6246700195382493
+                },
+                {
+                    "resource": 3,
+                    "begin": 0.5800546712876629,
+                    "end": 0.5878139808602636
+                },
+                {
+                    "resource": 8,
+                    "begin": 0.6581517797340104,
+                    "end": 0.7376218715067052
+                }
+            ]
+        },
+        {
+            "period": 5219.3524457115855,
+            "utilization": 0.002010426512576935,
+            "relative-deadline": 10.493124535341838,
+            "criticality": "LC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 8.917970658118852,
+                    "end": 9.703950925302706
+                },
+                {
+                    "resource": 6,
+                    "begin": 9.123529747144396,
+                    "end": 9.624425901238682
+                },
+                {
+                    "resource": 9,
+                    "begin": 9.14313195756515,
+                    "end": 9.401524361818247
+                },
+                {
+                    "resource": 1,
+                    "begin": 9.174251072557814,
+                    "end": 9.39074617492405
+                }
+            ]
+        },
+        {
+            "period": 5659.689022146709,
+            "utilization": 0.012687342536949031,
+            "relative-deadline": 71.80641327658542,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 24.566859690858212,
+                    "end": 33.767859741529925
+                },
+                {
+                    "resource": 5,
+                    "begin": 40.010138870942285,
+                    "end": 59.78751064362022
+                },
+                {
+                    "resource": 7,
+                    "begin": 64.79583438675813,
+                    "end": 65.51693817516684
+                },
+                {
+                    "resource": 4,
+                    "begin": 67.33432671008295,
+                    "end": 71.41504703267822
+                },
+                {
+                    "resource": 6,
+                    "begin": 68.10561155772528,
+                    "end": 71.22097525550161
+                },
+                {
+                    "resource": 10,
+                    "begin": 69.45426900025417,
+                    "end": 69.98150829520164
+                },
+                {
+                    "resource": 9,
+                    "begin": 69.80179887484776,
+                    "end": 69.92660475410972
+                }
+            ]
+        },
+        {
+            "period": 4830.689696911971,
+            "utilization": 0.0028885710456227898,
+            "relative-deadline": 13.95379038888825,
+            "criticality": "LC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 7,
+                    "begin": 3.1055491257261223,
+                    "end": 7.588695884401147
+                },
+                {
+                    "resource": 8,
+                    "begin": 10.523556165255457,
+                    "end": 11.898054987891136
+                }
+            ]
+        },
+        {
+            "period": 7683.107842293343,
+            "utilization": 0.0013148793089846067,
+            "relative-deadline": 10.102359530528885,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 3.162079557842631,
+                    "end": 3.273382834688191
+                }
+            ]
+        },
+        {
+            "period": 2593.5925781934648,
+            "utilization": 0.0035912049774085575,
+            "relative-deadline": 9.314122576178264,
+            "criticality": "LC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 4.540483454552946,
+                    "end": 7.832805568277745
+                },
+                {
+                    "resource": 10,
+                    "begin": 7.895096334065703,
+                    "end": 9.036485645207566
+                },
+                {
+                    "resource": 6,
+                    "begin": 7.986424432195694,
+                    "end": 8.1421285502301
+                },
+                {
+                    "resource": 2,
+                    "begin": 9.06226730318193,
+                    "end": 9.186717627685507
+                },
+                {
+                    "resource": 1,
+                    "begin": 9.28126277961348,
+                    "end": 9.306831570416875
+                },
+                {
+                    "resource": 4,
+                    "begin": 9.308849767373212,
+                    "end": 9.313908417733357
+                }
+            ]
+        },
+        {
+            "period": 342.785222826501,
+            "utilization": 0.009870323091138722,
+            "relative-deadline": 3.383400900165545,
+            "criticality": "LC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 0.536071163646272,
+                    "end": 1.9674786386921683
+                },
+                {
+                    "resource": 8,
+                    "begin": 2.3850234512647006,
+                    "end": 2.639459924894516
+                },
+                {
+                    "resource": 10,
+                    "begin": 2.4643848221263123,
+                    "end": 2.6007345934177533
+                },
+                {
+                    "resource": 2,
+                    "begin": 2.590055071195146,
+                    "end": 2.591424210364831
+                },
+                {
+                    "resource": 9,
+                    "begin": 2.9058160307963563,
+                    "end": 2.908305723223574
+                },
+                {
+                    "resource": 4,
+                    "begin": 3.0156840062683132,
+                    "end": 3.01702434806593
+                }
+            ]
+        },
+        {
+            "period": 9385.186522312062,
+            "utilization": 0.005159762815418356,
+            "relative-deadline": 48.4253364335913,
+            "criticality": "HC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 7,
+                    "begin": 1.3175885958380456,
+                    "end": 19.257414083002878
+                },
+                {
+                    "resource": 1,
+                    "begin": 37.853500554315865,
+                    "end": 42.378423359589675
+                },
+                {
+                    "resource": 9,
+                    "begin": 38.83594984339103,
+                    "end": 40.67181287629696
+                },
+                {
+                    "resource": 6,
+                    "begin": 46.66667929661378,
+                    "end": 48.12074774719388
+                },
+                {
+                    "resource": 3,
+                    "begin": 48.123771814519586,
+                    "end": 48.3589582017038
+                },
+                {
+                    "resource": 10,
+                    "begin": 48.37324850479271,
+                    "end": 48.4216184022122
+                }
+            ]
+        },
+        {
+            "period": 7275.010800091282,
+            "utilization": 0.01156174492432871,
+            "relative-deadline": 84.11181919239193,
+            "criticality": "LC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 7.144852369964881,
+                    "end": 11.414777664821429
+                },
+                {
+                    "resource": 8,
+                    "begin": 47.203886018929936,
+                    "end": 58.61272275395479
+                },
+                {
+                    "resource": 3,
+                    "begin": 53.26045686740934,
+                    "end": 54.50096319396233
+                }
+            ]
+        },
+        {
+            "period": 4046.6474075662486,
+            "utilization": 0.009212441183627018,
+            "relative-deadline": 37.279501233080815,
+            "criticality": "LC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 2,
+                    "begin": 11.983442067578471,
+                    "end": 29.18343090914579
+                },
+                {
+                    "resource": 4,
+                    "begin": 15.10294773561446,
+                    "end": 28.01788270453232
+                },
+                {
+                    "resource": 9,
+                    "begin": 20.430806176447362,
+                    "end": 23.33986000920659
+                },
+                {
+                    "resource": 7,
+                    "begin": 29.238548840551477,
+                    "end": 29.94101974163562
+                },
+                {
+                    "resource": 5,
+                    "begin": 31.95711175677983,
+                    "end": 32.571929661715075
+                },
+                {
+                    "resource": 3,
+                    "begin": 36.4118435165908,
+                    "end": 36.527079278426
+                },
+                {
+                    "resource": 8,
+                    "begin": 37.19916425810877,
+                    "end": 37.205193930232234
+                }
+            ]
+        },
+        {
+            "period": 8962.951362297168,
+            "utilization": 0.006897357815398575,
+            "relative-deadline": 61.82068262777768,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 8.138561114828965,
+                    "end": 13.14606775873578
+                }
+            ]
+        },
+        {
+            "period": 8442.92888818446,
+            "utilization": 0.0008934720894609449,
+            "relative-deadline": 7.543521314896342,
+            "criticality": "HC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 1.790440589565515,
+                    "end": 4.8046840373224775
+                },
+                {
+                    "resource": 7,
+                    "begin": 2.4794920039036845,
+                    "end": 2.7596473225161575
+                },
+                {
+                    "resource": 9,
+                    "begin": 2.7193640518941984,
+                    "end": 2.7224707081985757
+                },
+                {
+                    "resource": 1,
+                    "begin": 6.464783150445956,
+                    "end": 6.8908343108709325
+                },
+                {
+                    "resource": 3,
+                    "begin": 6.578493700691342,
+                    "end": 6.6708139982254675
+                },
+                {
+                    "resource": 6,
+                    "begin": 7.161087870154596,
+                    "end": 7.481769733854894
+                },
+                {
+                    "resource": 8,
+                    "begin": 7.516939113639926,
+                    "end": 7.522596171603055
+                },
+                {
+                    "resource": 5,
+                    "begin": 7.520264983627141,
+                    "end": 7.52117500683494
+                }
+            ]
+        },
+        {
+            "period": 10000.0,
+            "utilization": 0.001740865863547103,
+            "relative-deadline": 17.40865863547103,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 3.999259067288811,
+                    "end": 8.516052774101425
+                },
+                {
+                    "resource": 5,
+                    "begin": 10.364682593283169,
+                    "end": 14.175298504330776
+                },
+                {
+                    "resource": 3,
+                    "begin": 16.073499166293736,
+                    "end": 16.292690427950728
+                },
+                {
+                    "resource": 4,
+                    "begin": 17.111419560950363,
+                    "end": 17.219907945688686
+                },
+                {
+                    "resource": 2,
+                    "begin": 17.3824515671574,
+                    "end": 17.385302071646947
+                },
+                {
+                    "resource": 10,
+                    "begin": 17.38442234184336,
+                    "end": 17.385038697193725
+                },
+                {
+                    "resource": 9,
+                    "begin": 17.384497820119606,
+                    "end": 17.38475270275579
+                }
+            ]
+        },
+        {
+            "period": 8995.873720332576,
+            "utilization": 0.0034514944336757614,
+            "relative-deadline": 31.04920807177795,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 3.8144311238418576,
+                    "end": 8.151660561131916
+                },
+                {
+                    "resource": 8,
+                    "begin": 5.420008064767916,
+                    "end": 8.108469671318138
+                }
+            ]
+        },
+        {
+            "period": 5733.448952590557,
+            "utilization": 0.0032410893390237283,
+            "relative-deadline": 18.582620276078018,
+            "criticality": "HC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 9,
+                    "begin": 4.714744481097108,
+                    "end": 12.326526491768856
+                },
+                {
+                    "resource": 7,
+                    "begin": 6.772033316835575,
+                    "end": 10.622747517752426
+                },
+                {
+                    "resource": 4,
+                    "begin": 17.55505713515017,
+                    "end": 17.935018780780503
+                },
+                {
+                    "resource": 8,
+                    "begin": 17.56434799432476,
+                    "end": 17.635545374360873
+                },
+                {
+                    "resource": 10,
+                    "begin": 17.5911318598642,
+                    "end": 17.63191368438528
+                }
+            ]
+        },
+        {
+            "period": 1525.497161423204,
+            "utilization": 0.0037990825910863,
+            "relative-deadline": 5.795489708714462,
+            "criticality": "LC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 7,
+                    "begin": 1.901842997010854,
+                    "end": 2.66546160093311
+                },
+                {
+                    "resource": 4,
+                    "begin": 2.124485271012241,
+                    "end": 2.372950054581518
+                },
+                {
+                    "resource": 10,
+                    "begin": 3.6217450350923843,
+                    "end": 4.292431482351912
+                },
+                {
+                    "resource": 8,
+                    "begin": 4.296052338568151,
+                    "end": 5.695709019236791
+                },
+                {
+                    "resource": 2,
+                    "begin": 5.7133285471520106,
+                    "end": 5.764226985718892
+                }
+            ]
+        },
+        {
+            "period": 4185.723652304954,
+            "utilization": 0.00026184108526594585,
+            "relative-deadline": 1.0959944237428678,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 0.4620830759832843,
+                    "end": 0.7237104151728386
+                },
+                {
+                    "resource": 9,
+                    "begin": 0.5499932618900502,
+                    "end": 0.6569593931182162
+                }
+            ]
+        },
+        {
+            "period": 5069.817842402919,
+            "utilization": 0.010163947704937198,
+            "relative-deadline": 51.52936342374081,
+            "criticality": "LC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 9,
+                    "begin": 27.69612654377566,
+                    "end": 48.71705186264465
+                },
+                {
+                    "resource": 4,
+                    "begin": 48.83974574591092,
+                    "end": 51.32444777908297
+                }
+            ]
+        },
+        {
+            "period": 6407.166099777914,
+            "utilization": 0.000623374287896189,
+            "relative-deadline": 3.9940626048816594,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 5981.214860069656,
+            "utilization": 0.00016290217934603057,
+            "relative-deadline": 0.9743529358422103,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 0.5031916286509196,
+                    "end": 0.9096368246942339
+                }
+            ]
+        },
+        {
+            "period": 7888.326216765981,
+            "utilization": 0.007820911720246543,
+            "relative-deadline": 61.69390296183313,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 9.447535106948257,
+                    "end": 15.080951980747393
+                },
+                {
+                    "resource": 4,
+                    "begin": 13.565420981004223,
+                    "end": 14.953784936824679
+                },
+                {
+                    "resource": 9,
+                    "begin": 17.873379282824615,
+                    "end": 33.84209079616475
+                },
+                {
+                    "resource": 7,
+                    "begin": 53.5800082574322,
+                    "end": 57.4258181559852
+                }
+            ]
+        },
+        {
+            "period": 5425.968560672459,
+            "utilization": 0.01038056019303596,
+            "relative-deadline": 56.32459324958114,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 10000.0,
+            "utilization": 0.01549708355079718,
+            "relative-deadline": 154.9708355079718,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 4589.608260911876,
+            "utilization": 0.01286110086566572,
+            "relative-deadline": 59.02741477748027,
+            "criticality": "LC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 17.979607166743758,
+                    "end": 40.90782302232208
+                },
+                {
+                    "resource": 4,
+                    "begin": 32.1790126790234,
+                    "end": 36.04686214983566
+                }
+            ]
+        },
+        {
+            "period": 8471.88405180183,
+            "utilization": 0.004268175723279449,
+            "relative-deadline": 36.15948984033891,
+            "criticality": "LC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 15.291331148806128,
+                    "end": 19.54128419655028
+                },
+                {
+                    "resource": 1,
+                    "begin": 15.727437245458187,
+                    "end": 15.842902280759787
+                },
+                {
+                    "resource": 9,
+                    "begin": 15.766912763672174,
+                    "end": 15.840607920646175
+                },
+                {
+                    "resource": 2,
+                    "begin": 22.267799993936492,
+                    "end": 31.2854393929439
+                },
+                {
+                    "resource": 4,
+                    "begin": 31.442442352724065,
+                    "end": 36.024544631520186
+                },
+                {
+                    "resource": 3,
+                    "begin": 36.072845117341465,
+                    "end": 36.15540708051372
+                }
+            ]
+        },
+        {
+            "period": 2221.0508456761513,
+            "utilization": 0.0018136387572479096,
+            "relative-deadline": 4.028183895536514,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 1.385493460559779,
+                    "end": 2.216301151043635
+                },
+                {
+                    "resource": 9,
+                    "begin": 2.5485275668713476,
+                    "end": 2.814762596959748
+                },
+                {
+                    "resource": 1,
+                    "begin": 2.6130119297868903,
+                    "end": 2.699270420106509
+                },
+                {
+                    "resource": 6,
+                    "begin": 2.683843522716798,
+                    "end": 2.6985520507789547
+                }
+            ]
+        },
+        {
+            "period": 5688.594783392845,
+            "utilization": 0.003905114518214292,
+            "relative-deadline": 22.214614076865484,
+            "criticality": "HC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 3.0562051390450864,
+                    "end": 8.808950146302085
+                },
+                {
+                    "resource": 9,
+                    "begin": 5.290473253757609,
+                    "end": 6.119376423244837
+                },
+                {
+                    "resource": 7,
+                    "begin": 20.318665072472577,
+                    "end": 21.002221840254208
+                }
+            ]
+        },
+        {
+            "period": 6674.146700638969,
+            "utilization": 0.005694156010862372,
+            "relative-deadline": 38.003632552820655,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 3550.8086650940886,
+            "utilization": 0.0009857750947505628,
+            "relative-deadline": 3.5002987482742447,
+            "criticality": "LC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 1.1190113434906976,
+                    "end": 2.54539130975442
+                },
+                {
+                    "resource": 1,
+                    "begin": 2.798475404443857,
+                    "end": 2.911588927975933
+                },
+                {
+                    "resource": 9,
+                    "begin": 3.2327409190465017,
+                    "end": 3.359420481135947
+                },
+                {
+                    "resource": 7,
+                    "begin": 3.36091211643688,
+                    "end": 3.40677982268472
+                },
+                {
+                    "resource": 10,
+                    "begin": 3.4483510761469023,
+                    "end": 3.4540508162373404
+                },
+                {
+                    "resource": 8,
+                    "begin": 3.4496340205889093,
+                    "end": 3.4536416012592586
+                },
+                {
+                    "resource": 2,
+                    "begin": 3.455663663483326,
+                    "end": 3.4725974771571497
+                },
+                {
+                    "resource": 3,
+                    "begin": 3.457770146997098,
+                    "end": 3.458009359609967
+                }
+            ]
+        },
+        {
+            "period": 1715.109937726691,
+            "utilization": 0.0006839236149361327,
+            "relative-deadline": 1.173004188622924,
+            "criticality": "HC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 0.19265151598362198,
+                    "end": 0.5460963750611582
+                },
+                {
+                    "resource": 3,
+                    "begin": 0.4418854352280135,
+                    "end": 0.4696973725812862
+                },
+                {
+                    "resource": 2,
+                    "begin": 0.4556752926512989,
+                    "end": 0.45755035201393685
+                },
+                {
+                    "resource": 4,
+                    "begin": 0.7509877578831607,
+                    "end": 0.9285469502026342
+                },
+                {
+                    "resource": 7,
+                    "begin": 1.0149421551435953,
+                    "end": 1.0172539203584328
+                }
+            ]
+        },
+        {
+            "period": 1772.2846814143259,
+            "utilization": 0.007903213862494818,
+            "relative-deadline": 14.006744862440913,
+            "criticality": "LC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 5.216436081027286,
+                    "end": 10.174520851408431
+                },
+                {
+                    "resource": 1,
+                    "begin": 8.110594233927317,
+                    "end": 9.292169574403403
+                },
+                {
+                    "resource": 5,
+                    "begin": 10.187703760501874,
+                    "end": 11.52910077818234
+                },
+                {
+                    "resource": 8,
+                    "begin": 12.796619586478304,
+                    "end": 13.49348706218965
+                },
+                {
+                    "resource": 9,
+                    "begin": 13.638814931825948,
+                    "end": 13.643471357426845
+                }
+            ]
+        },
+        {
+            "period": 100.0,
+            "utilization": 0.001232364306511441,
+            "relative-deadline": 0.12323643065114409,
+            "criticality": "LC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 0.05955616221850079,
+                    "end": 0.1168549549961366
+                },
+                {
+                    "resource": 2,
+                    "begin": 0.09438975553676462,
+                    "end": 0.10629674259201591
+                },
+                {
+                    "resource": 6,
+                    "begin": 0.11762504167423846,
+                    "end": 0.12174233960408976
+                },
+                {
+                    "resource": 9,
+                    "begin": 0.12306857420511173,
+                    "end": 0.12320053761464062
+                },
+                {
+                    "resource": 1,
+                    "begin": 0.12320986597016427,
+                    "end": 0.12323007221097454
+                },
+                {
+                    "resource": 7,
+                    "begin": 0.12322149818584587,
+                    "end": 0.12322568697359265
+                },
+                {
+                    "resource": 5,
+                    "begin": 0.12322449214642336,
+                    "end": 0.1232256328458172
+                },
+                {
+                    "resource": 4,
+                    "begin": 0.12323102056122218,
+                    "end": 0.12323516888377199
+                }
+            ]
+        },
+        {
+            "period": 5255.699640155395,
+            "utilization": 0.007120031348269329,
+            "relative-deadline": 37.420746194994244,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 3.5330434567940565,
+                    "end": 7.5050678768181385
+                }
+            ]
+        },
+        {
+            "period": 2434.9115580164744,
+            "utilization": 0.009022079691883955,
+            "relative-deadline": 21.967966119113953,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 1.6636957645692263,
+                    "end": 7.580558804783347
+                },
+                {
+                    "resource": 9,
+                    "begin": 3.807250949533445,
+                    "end": 5.072001088525622
+                }
+            ]
+        },
+        {
+            "period": 8657.795362428045,
+            "utilization": 0.005450713575615607,
+            "relative-deadline": 47.191162716888385,
+            "criticality": "HC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 5.326425829757716,
+                    "end": 28.352889154363027
+                },
+                {
+                    "resource": 2,
+                    "begin": 37.664935138519006,
+                    "end": 38.09727756060996
+                },
+                {
+                    "resource": 7,
+                    "begin": 37.71902878489188,
+                    "end": 37.85161601701802
+                }
+            ]
+        },
+        {
+            "period": 2528.7647885215692,
+            "utilization": 0.0041169843972171105,
+            "relative-deadline": 10.410885178575327,
+            "criticality": "LC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 1.1836444482493682,
+                    "end": 5.687697049816264
+                },
+                {
+                    "resource": 10,
+                    "begin": 6.718037929259168,
+                    "end": 7.266536974034598
+                },
+                {
+                    "resource": 9,
+                    "begin": 6.938562283279978,
+                    "end": 7.0528654286783
+                }
+            ]
+        },
+        {
+            "period": 3970.266915576203,
+            "utilization": 0.0005660961103187978,
+            "relative-deadline": 2.247552657835099,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 1.4214239839541698,
+                    "end": 1.478411766893503
+                },
+                {
+                    "resource": 7,
+                    "begin": 1.5040772556291504,
+                    "end": 1.9948659397891695
+                },
+                {
+                    "resource": 3,
+                    "begin": 2.068654907711205,
+                    "end": 2.2305916316057433
+                },
+                {
+                    "resource": 4,
+                    "begin": 2.1552216371810315,
+                    "end": 2.188498132493969
+                }
+            ]
+        },
+        {
+            "period": 5894.10488250132,
+            "utilization": 0.011688349601816722,
+            "relative-deadline": 68.89235845645031,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 6934.392247940559,
+            "utilization": 0.0022246205098276906,
+            "relative-deadline": 15.426391217958711,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 8.636373834630481,
+                    "end": 12.689926514684062
+                }
+            ]
+        },
+        {
+            "period": 5559.3391822266385,
+            "utilization": 0.0002949576016967326,
+            "relative-deadline": 1.639769352208244,
+            "criticality": "HC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 4243.244524219288,
+            "utilization": 0.003995860085411251,
+            "relative-deadline": 16.955411426967707,
+            "criticality": "HC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 8.438369688796232,
+                    "end": 9.111060445980177
+                },
+                {
+                    "resource": 7,
+                    "begin": 8.444264137311372,
+                    "end": 8.633246075131193
+                },
+                {
+                    "resource": 10,
+                    "begin": 8.518308314507145,
+                    "end": 8.57680615321077
+                },
+                {
+                    "resource": 9,
+                    "begin": 8.523787724131878,
+                    "end": 8.565818378700946
+                },
+                {
+                    "resource": 1,
+                    "begin": 9.306704307383058,
+                    "end": 15.146688222084478
+                }
+            ]
+        },
+        {
+            "period": 3841.551606845495,
+            "utilization": 0.006680201178462242,
+            "relative-deadline": 25.66233757117279,
+            "criticality": "LC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 9.224290460213526,
+                    "end": 15.254113653599006
+                },
+                {
+                    "resource": 5,
+                    "begin": 20.091728792824334,
+                    "end": 20.790477398825406
+                },
+                {
+                    "resource": 6,
+                    "begin": 20.881086011476,
+                    "end": 22.35793138501652
+                },
+                {
+                    "resource": 3,
+                    "begin": 22.39964998198916,
+                    "end": 25.52503623668244
+                }
+            ]
+        },
+        {
+            "period": 5138.352904856444,
+            "utilization": 0.0023845163137445613,
+            "relative-deadline": 12.252486327406947,
+            "criticality": "HC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 3889.3301598056487,
+            "utilization": 0.001408891140088353,
+            "relative-deadline": 5.479642803028597,
+            "criticality": "LC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 3322.0652918011924,
+            "utilization": 0.000189920386760703,
+            "relative-deadline": 0.6309279250631902,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 0.026533735086452327,
+                    "end": 0.32426217062839807
+                },
+                {
+                    "resource": 5,
+                    "begin": 0.2194445204734404,
+                    "end": 0.22182186580176896
+                }
+            ]
+        },
+        {
+            "period": 5630.597703751988,
+            "utilization": 0.002245193540383994,
+            "relative-deadline": 12.641781592964913,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 10,
+                    "begin": 6.6277261308089805,
+                    "end": 12.569750001239239
+                },
+                {
+                    "resource": 3,
+                    "begin": 11.020875922240753,
+                    "end": 12.013406292984394
+                },
+                {
+                    "resource": 4,
+                    "begin": 11.137114966311781,
+                    "end": 11.8288876380734
+                },
+                {
+                    "resource": 6,
+                    "begin": 11.300751119412192,
+                    "end": 11.428813930583557
+                },
+                {
+                    "resource": 9,
+                    "begin": 11.328096027715482,
+                    "end": 11.411948764503377
+                },
+                {
+                    "resource": 7,
+                    "begin": 11.36907900975804,
+                    "end": 11.399923319160173
+                },
+                {
+                    "resource": 1,
+                    "begin": 11.375464242718046,
+                    "end": 11.39645903606477
+                }
+            ]
+        },
+        {
+            "period": 2500.713102297784,
+            "utilization": 0.001223782980392954,
+            "relative-deadline": 3.0603301334376924,
+            "criticality": "HC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 1.2601759285453107,
+                    "end": 2.7365513884524995
+                },
+                {
+                    "resource": 6,
+                    "begin": 2.2784091220064155,
+                    "end": 2.3618763812540644
+                },
+                {
+                    "resource": 4,
+                    "begin": 2.3066332093860433,
+                    "end": 2.3397923290563125
+                }
+            ]
+        },
+        {
+            "period": 2890.8573420752587,
+            "utilization": 0.012807389065139757,
+            "relative-deadline": 37.02433471177365,
+            "criticality": "LC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 15.064460216027829,
+                    "end": 23.921151958790432
+                },
+                {
+                    "resource": 9,
+                    "begin": 18.694682714529687,
+                    "end": 19.790360916551396
+                },
+                {
+                    "resource": 3,
+                    "begin": 18.779546267616965,
+                    "end": 19.768025246975625
+                },
+                {
+                    "resource": 2,
+                    "begin": 19.422385780693276,
+                    "end": 19.696585151609877
+                }
+            ]
+        },
+        {
+            "period": 3795.9750209465533,
+            "utilization": 0.0035435318674460065,
+            "relative-deadline": 13.451158454753134,
+            "criticality": "LC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 9.34404875323938,
+                    "end": 9.840392356098258
+                },
+                {
+                    "resource": 2,
+                    "begin": 9.362890232617504,
+                    "end": 9.419742962362099
+                },
+                {
+                    "resource": 1,
+                    "begin": 9.39233249244034,
+                    "end": 9.40034623538082
+                }
+            ]
+        },
+        {
+            "period": 9481.661485602684,
+            "utilization": 0.0010082789384092683,
+            "relative-deadline": 9.56015957705952,
+            "criticality": "HC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 3.5153558019260576,
+                    "end": 4.805894695898675
+                }
+            ]
+        },
+        {
+            "period": 5572.24905783383,
+            "utilization": 0.009905127349577353,
+            "relative-deadline": 55.193836541406505,
+            "criticality": "LC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 3.1599753267742696,
+                    "end": 5.22303826442438
+                },
+                {
+                    "resource": 7,
+                    "begin": 30.479190559234596,
+                    "end": 38.215790745724995
+                },
+                {
+                    "resource": 10,
+                    "begin": 38.4199212101209,
+                    "end": 54.71060929522581
+                },
+                {
+                    "resource": 9,
+                    "begin": 53.40792202733925,
+                    "end": 54.45564639548586
+                },
+                {
+                    "resource": 4,
+                    "begin": 54.723317502014396,
+                    "end": 54.81524931238038
+                },
+                {
+                    "resource": 5,
+                    "begin": 54.84960339004764,
+                    "end": 55.18758497323565
+                }
+            ]
+        },
+        {
+            "period": 100.0,
+            "utilization": 0.009563244282785266,
+            "relative-deadline": 0.9563244282785266,
+            "criticality": "LC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 0.3079395010761571,
+                    "end": 0.5138025342095123
+                },
+                {
+                    "resource": 2,
+                    "begin": 0.3661874012250128,
+                    "end": 0.4536295739392148
+                },
+                {
+                    "resource": 10,
+                    "begin": 0.6595466540645547,
+                    "end": 0.7252135334903268
+                },
+                {
+                    "resource": 5,
+                    "begin": 0.6775080041034336,
+                    "end": 0.6791073431998539
+                },
+                {
+                    "resource": 6,
+                    "begin": 0.7490741321496623,
+                    "end": 0.9006987417051682
+                },
+                {
+                    "resource": 9,
+                    "begin": 0.7514776209075197,
+                    "end": 0.8710240947587978
+                },
+                {
+                    "resource": 7,
+                    "begin": 0.9035866237071041,
+                    "end": 0.9538144949567624
+                }
+            ]
+        },
+        {
+            "period": 6724.939265755903,
+            "utilization": 0.00021391418509381088,
+            "relative-deadline": 1.4385599028395448,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 0.0476005275523952,
+                    "end": 0.7090165116900156
+                },
+                {
+                    "resource": 1,
+                    "begin": 1.378613363905305,
+                    "end": 1.4114032339580387
+                }
+            ]
+        },
+        {
+            "period": 2614.901791427552,
+            "utilization": 0.004730433876147799,
+            "relative-deadline": 12.369620016968458,
+            "criticality": "HC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 10000.0,
+            "utilization": 0.005511872445869662,
+            "relative-deadline": 55.11872445869662,
+            "criticality": "HC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 5.925377204495114,
+                    "end": 30.0750262683664
+                },
+                {
+                    "resource": 6,
+                    "begin": 11.520041729064502,
+                    "end": 23.4705945896884
+                }
+            ]
+        },
+        {
+            "period": 9098.265448697346,
+            "utilization": 0.0016023472849809733,
+            "relative-deadline": 14.578580939756389,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 9.664486461924021,
+                    "end": 12.10751503422724
+                }
+            ]
+        },
+        {
+            "period": 6096.313423471013,
+            "utilization": 0.010261663030613384,
+            "relative-deadline": 62.558314080664616,
+            "criticality": "LC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 26.074888505587758,
+                    "end": 42.00621930463409
+                },
+                {
+                    "resource": 1,
+                    "begin": 43.79111194580047,
+                    "end": 56.44802296464603
+                },
+                {
+                    "resource": 4,
+                    "begin": 47.653922849069374,
+                    "end": 52.094441456263176
+                },
+                {
+                    "resource": 5,
+                    "begin": 60.35237526125663,
+                    "end": 62.040124320769024
+                },
+                {
+                    "resource": 2,
+                    "begin": 62.13307876100681,
+                    "end": 62.54131314789266
+                }
+            ]
+        },
+        {
+            "period": 6743.910426504578,
+            "utilization": 0.0009499675996319096,
+            "relative-deadline": 6.4064963999991615,
+            "criticality": "LC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 7,
+                    "begin": 0.34518710437756306,
+                    "end": 1.2309501377210983
+                },
+                {
+                    "resource": 2,
+                    "begin": 3.4486400402995363,
+                    "end": 5.057499204060093
+                },
+                {
+                    "resource": 5,
+                    "begin": 3.7845961998997715,
+                    "end": 3.9036111883851254
+                },
+                {
+                    "resource": 8,
+                    "begin": 3.8663629655416325,
+                    "end": 3.8801920306292246
+                },
+                {
+                    "resource": 6,
+                    "begin": 5.530825553607073,
+                    "end": 5.705491209324774
+                },
+                {
+                    "resource": 3,
+                    "begin": 5.582154797242389,
+                    "end": 5.671619257708544
+                },
+                {
+                    "resource": 10,
+                    "begin": 6.105755563922026,
+                    "end": 6.374714624276353
+                }
+            ]
+        },
+        {
+            "period": 3838.5654326105605,
+            "utilization": 0.011135574872025066,
+            "relative-deadline": 42.744632776002184,
+            "criticality": "HC",
+            "no-critical-sections": 0,
+            "resource-access": []
+        },
+        {
+            "period": 10000.0,
+            "utilization": 0.0030593155221580667,
+            "relative-deadline": 30.593155221580666,
+            "criticality": "LC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 2.7946026749170394,
+                    "end": 3.259545630751652
+                },
+                {
+                    "resource": 1,
+                    "begin": 12.547522933801964,
+                    "end": 18.37365496419233
+                },
+                {
+                    "resource": 4,
+                    "begin": 18.747496621782947,
+                    "end": 22.18095107512594
+                },
+                {
+                    "resource": 2,
+                    "begin": 19.061123318743956,
+                    "end": 19.86028920467174
+                },
+                {
+                    "resource": 7,
+                    "begin": 23.38495420601954,
+                    "end": 26.036887105900803
+                },
+                {
+                    "resource": 9,
+                    "begin": 23.3972447569464,
+                    "end": 24.43806639935315
+                }
+            ]
+        },
+        {
+            "period": 7477.159416644444,
+            "utilization": 0.0033358443799147916,
+            "relative-deadline": 24.94264021774033,
+            "criticality": "LC",
+            "no-critical-sections": 5,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 10.704584688453561,
+                    "end": 22.531073434948485
+                },
+                {
+                    "resource": 9,
+                    "begin": 19.621894693465713,
+                    "end": 20.119040884021672
+                },
+                {
+                    "resource": 3,
+                    "begin": 22.592321206271027,
+                    "end": 23.126150523550074
+                },
+                {
+                    "resource": 10,
+                    "begin": 23.615713628850653,
+                    "end": 23.669595393779407
+                },
+                {
+                    "resource": 4,
+                    "begin": 23.94892123475648,
+                    "end": 23.997043500459515
+                }
+            ]
+        },
+        {
+            "period": 3498.9655621262746,
+            "utilization": 0.0014341794298701818,
+            "relative-deadline": 5.01814443502566,
+            "criticality": "LC",
+            "no-critical-sections": 2,
+            "resource-access": [
+                {
+                    "resource": 9,
+                    "begin": 2.423913928560306,
+                    "end": 3.1737919519975133
+                },
+                {
+                    "resource": 2,
+                    "begin": 2.5479741892013785,
+                    "end": 2.6030932405001246
+                }
+            ]
+        },
+        {
+            "period": 3442.881805228733,
+            "utilization": 0.002094599669318173,
+            "relative-deadline": 7.211459090733658,
+            "criticality": "HC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 0.6704457719728325,
+                    "end": 1.8550108231744578
+                },
+                {
+                    "resource": 4,
+                    "begin": 1.2708180187654559,
+                    "end": 1.7182441745077506
+                },
+                {
+                    "resource": 6,
+                    "begin": 1.494943155048658,
+                    "end": 1.6326846954371548
+                },
+                {
+                    "resource": 10,
+                    "begin": 1.5241203483645878,
+                    "end": 1.59909337893978
+                },
+                {
+                    "resource": 2,
+                    "begin": 3.905876012803179,
+                    "end": 5.964007507907178
+                },
+                {
+                    "resource": 7,
+                    "begin": 6.173365596034546,
+                    "end": 6.248520910449942
+                },
+                {
+                    "resource": 8,
+                    "begin": 6.895835006534305,
+                    "end": 7.048288718295233
+                },
+                {
+                    "resource": 9,
+                    "begin": 6.959800386363891,
+                    "end": 7.004394125492066
+                }
+            ]
+        },
+        {
+            "period": 100.0,
+            "utilization": 0.0021979713214289737,
+            "relative-deadline": 0.21979713214289737,
+            "criticality": "LC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 1,
+                    "begin": 0.04062349596256759,
+                    "end": 0.11110409949178714
+                },
+                {
+                    "resource": 3,
+                    "begin": 0.17306772061652875,
+                    "end": 0.19318267376033965
+                },
+                {
+                    "resource": 8,
+                    "begin": 0.19403353015987676,
+                    "end": 0.2061828634291968
+                }
+            ]
+        },
+        {
+            "period": 7214.663165330513,
+            "utilization": 0.0012956694952768674,
+            "relative-deadline": 9.347818982016392,
+            "criticality": "HC",
+            "no-critical-sections": 3,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 1.1224517678954948,
+                    "end": 3.3837197278371285
+                },
+                {
+                    "resource": 10,
+                    "begin": 1.9136949264406917,
+                    "end": 2.9269499542078883
+                },
+                {
+                    "resource": 4,
+                    "begin": 6.840690394808775,
+                    "end": 9.066053743884645
+                }
+            ]
+        },
+        {
+            "period": 3554.010724167343,
+            "utilization": 0.002072955432187728,
+            "relative-deadline": 7.367305836716135,
+            "criticality": "LC",
+            "no-critical-sections": 1,
+            "resource-access": [
+                {
+                    "resource": 8,
+                    "begin": 1.8388878056137217,
+                    "end": 2.1756709526987335
+                }
+            ]
+        },
+        {
+            "period": 10000.0,
+            "utilization": 3.4619138457477744e-05,
+            "relative-deadline": 0.34619138457477744,
+            "criticality": "HC",
+            "no-critical-sections": 4,
+            "resource-access": [
+                {
+                    "resource": 5,
+                    "begin": 0.1627502999212992,
+                    "end": 0.1975511204662154
+                },
+                {
+                    "resource": 7,
+                    "begin": 0.24825913986281142,
+                    "end": 0.26757468432076975
+                },
+                {
+                    "resource": 2,
+                    "begin": 0.2576912425269802,
+                    "end": 0.267289160848454
+                },
+                {
+                    "resource": 10,
+                    "begin": 0.29402177782999916,
+                    "end": 0.3300188292938509
+                }
+            ]
+        },
+        {
+            "period": 100.0,
+            "utilization": 0.005294940946630404,
+            "relative-deadline": 0.5294940946630404,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 0.030458010810998717,
+                    "end": 0.273738179839463
+                },
+                {
+                    "resource": 1,
+                    "begin": 0.3412543442484464,
+                    "end": 0.34851938283052303
+                },
+                {
+                    "resource": 2,
+                    "begin": 0.4105791881901559,
+                    "end": 0.41942787348942895
+                },
+                {
+                    "resource": 3,
+                    "begin": 0.41351914048872723,
+                    "end": 0.4164462807845489
+                },
+                {
+                    "resource": 10,
+                    "begin": 0.4803364438398281,
+                    "end": 0.4810199843288269
+                },
+                {
+                    "resource": 8,
+                    "begin": 0.5123441435132786,
+                    "end": 0.51397605358133
+                },
+                {
+                    "resource": 7,
+                    "begin": 0.5201862821505467,
+                    "end": 0.520777919401738
+                }
+            ]
+        },
+        {
+            "period": 8691.962585693083,
+            "utilization": 0.005564055652106468,
+            "relative-deadline": 48.36256355282355,
+            "criticality": "HC",
+            "no-critical-sections": 6,
+            "resource-access": [
+                {
+                    "resource": 4,
+                    "begin": 0.3056177889101557,
+                    "end": 18.523627211880875
+                },
+                {
+                    "resource": 5,
+                    "begin": 3.3708121757110137,
+                    "end": 9.649684710746577
+                },
+                {
+                    "resource": 3,
+                    "begin": 3.8145748778703017,
+                    "end": 7.41390824020178
+                },
+                {
+                    "resource": 6,
+                    "begin": 34.62038529483064,
+                    "end": 39.421403121122395
+                },
+                {
+                    "resource": 1,
+                    "begin": 40.85940323300246,
+                    "end": 41.88589391590561
+                },
+                {
+                    "resource": 8,
+                    "begin": 42.87424190175709,
+                    "end": 42.900399581358414
+                }
+            ]
+        },
+        {
+            "period": 2365.7521541529272,
+            "utilization": 0.00957409690210844,
+            "relative-deadline": 22.64994037023191,
+            "criticality": "HC",
+            "no-critical-sections": 7,
+            "resource-access": [
+                {
+                    "resource": 3,
+                    "begin": 12.101086219263927,
+                    "end": 17.649558171597093
+                },
+                {
+                    "resource": 2,
+                    "begin": 12.740027360371743,
+                    "end": 16.05367270086929
+                },
+                {
+                    "resource": 6,
+                    "begin": 18.074423863264265,
+                    "end": 18.579141564127532
+                },
+                {
+                    "resource": 5,
+                    "begin": 18.16198864638397,
+                    "end": 18.570045846072123
+                },
+                {
+                    "resource": 1,
+                    "begin": 18.44098158828935,
+                    "end": 18.543114310510987
+                },
+                {
+                    "resource": 10,
+                    "begin": 18.702291571068088,
+                    "end": 22.076308803219757
+                },
+                {
+                    "resource": 4,
+                    "begin": 22.143000616377595,
+                    "end": 22.480492961709917
+                }
+            ]
+        },
+        {
+            "period": 4155.887928418265,
+            "utilization": 0.00884708396816743,
+            "relative-deadline": 36.76748946500978,
+            "criticality": "HC",
+            "no-critical-sections": 8,
+            "resource-access": [
+                {
+                    "resource": 6,
+                    "begin": 15.110440690848629,
+                    "end": 24.34789497335759
+                },
+                {
+                    "resource": 2,
+                    "begin": 19.3242499544594,
+                    "end": 22.010285617480747
+                },
+                {
+                    "resource": 9,
+                    "begin": 25.130710745826967,
+                    "end": 29.026460061949702
+                },
+                {
+                    "resource": 7,
+                    "begin": 26.537499694416955,
+                    "end": 27.535840262438022
+                },
+                {
+                    "resource": 4,
+                    "begin": 29.301354030652504,
+                    "end": 30.84761316124119
+                },
+                {
+                    "resource": 10,
+                    "begin": 29.717765421327343,
+                    "end": 30.322033180470285
+                },
+                {
+                    "resource": 3,
+                    "begin": 32.91537552015573,
+                    "end": 36.54302933453617
+                },
+                {
+                    "resource": 8,
+                    "begin": 36.67898296959931,
+                    "end": 36.737709485984865
+                }
+            ]
+        }
+    ]
+}
