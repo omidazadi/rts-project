@@ -25,9 +25,9 @@ def generate_resource_access_order(critical_sections, resource_units):
     
     return access_order
 
-def generate_resource_access(relative_deadline, access_order):
+def generate_resource_access(wcet, access_order):
     resource_access = []
-    xxx, total_sum = [], relative_deadline * 0.5
+    xxx, total_sum = [], wcet * 0.5
     for i in range(len(access_order)):
         if i == 0 or random.random() < 0.5:
             share = random.random() * total_sum
@@ -36,7 +36,7 @@ def generate_resource_access(relative_deadline, access_order):
         else:
             xxx[-1][1] += 1
     
-    empty_space, current_l = relative_deadline * 0.5 + total_sum, 0
+    empty_space, current_l = wcet * 0.5 + total_sum, 0
     for i in range(len(xxx)):
         distance_space = random.random() * empty_space
         current_l += distance_space
@@ -85,19 +85,29 @@ def generate_test():
 
     task_periods = [generate_period() for i in range(no_tasks)]
     task_utilizations = generate_uunifastdiscard(1, utilization, no_tasks)[0]
-    task_relative_deadlines = [task_periods[i] * task_utilizations[i] for i in range(no_tasks)]
     task_criticality = ['HC' if random.random() < hc_to_total_ratio else 'LC' for i in range(no_tasks)]
     task_critical_sections = [random.choice(range(task_critical_sections_min, task_critical_sections_max + 1)) for i in range(no_tasks)]
+    task_wcet = [task_periods[i] * task_utilizations[i] for i in range(no_tasks)]
     task_resource_access = []
     for i in range(no_tasks):
+        wcet = 0
+        if task_criticality[i] == 'LC':
+            wcet = task_wcet[i]
+        else:
+            wcet = 0.8 * task_wcet[i]
+
         access_order = generate_resource_access_order(task_critical_sections[i], resource_units)
-        task_resource_access.append(generate_resource_access(task_relative_deadlines[i], access_order))
+        task_resource_access.append(generate_resource_access(wcet, access_order))
 
     tasks['tasks'] = []
     for i in range(no_tasks):
-        tasks['tasks'].append({ 'period': task_periods[i], 'utilization': task_utilizations[i], 'relative-deadline': task_relative_deadlines[i],
-                               'criticality': task_criticality[i], 'no-critical-sections': task_critical_sections[i],
-                               'resource-access': task_resource_access[i] })
+        tasks['tasks'].append({ 'period': task_periods[i], 'utilization': task_utilizations[i], 'criticality': task_criticality[i], 
+                               'no-critical-sections': task_critical_sections[i], 'resource-access': task_resource_access[i] })
+        if tasks['tasks'][-1]['criticality'] == 'LC':
+            tasks['tasks'][-1]['lc-wcet'] = task_wcet[i]
+        else:
+            tasks['tasks'][-1]['lc-wcet'] = 0.8 * task_wcet[i]
+            tasks['tasks'][-1]['hc-wcet'] = task_wcet[i]
     
     json.dump(tasks, open(f'result.json', 'w'), indent=4)
 
