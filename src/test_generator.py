@@ -60,7 +60,7 @@ def generate_resource_access(wcet, access_order):
 
 def generate_test():
     (utilization, no_tasks, hc_to_total_ratio, resource_unit_min, resource_unit_max,
-     no_resources, task_critical_sections_min, task_critical_sections_max) = input().split(' ')
+     no_resources, task_critical_sections_min, task_critical_sections_max, overrun) = input().split(' ')
     utilization = float(utilization)
     no_tasks = int(no_tasks)
     hc_to_total_ratio = float(hc_to_total_ratio)
@@ -69,6 +69,7 @@ def generate_test():
     no_resources = int(no_resources)
     task_critical_sections_min = int(task_critical_sections_min)
     task_critical_sections_max = int(task_critical_sections_max)
+    overrun = int(overrun)
 
     tasks = dict()
     tasks['utilization'] = utilization
@@ -79,6 +80,7 @@ def generate_test():
     tasks['no-resources'] = no_resources
     tasks['task-critical-sections_min'] = task_critical_sections_min
     tasks['task-critical-sections_max'] = task_critical_sections_max
+    tasks['overrun'] = overrun
 
     resource_units = [random.choice([i for i in range(resource_unit_min, resource_unit_max + 1)]) for j in range(no_resources)]
     tasks['resource-units'] = resource_units
