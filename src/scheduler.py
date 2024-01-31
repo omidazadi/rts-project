@@ -41,7 +41,7 @@ def create_jobs(tasks, overrun):
             job['resource-access-timeline'] = task['resource-access-timeline']
             job['next-critical-interaction'] = 0
             job['resource-need'] = task['resource-need']
-            job['dynamic-deadline-stack'] = [[job['relative-deadline'], 0]]
+            job['dynamic-deadline-stack'] = [[job['arrival-time'] + job['relative-deadline'], 0]]
             jobs.append(job)
             t += task['period']
         task_id += 1
@@ -106,9 +106,12 @@ def do_next_critical_action(system, resources):
     job['next-critical-interaction'] += 1
     if critical_action[1] == '+':
         system['resources-remaining'][critical_action[2]] -= 1
+        if system['resources-remaining'][critical_action[2]] < 0:
+            print(system['resources-remaining'])
+            raise Exception('Whaaa...') 
         if (resources[critical_action[2]]['ceiling'][system['resources-remaining'][critical_action[2]]] != None and
-            resources[critical_action[2]]['ceiling'][system['resources-remaining'][critical_action[2]]] < job['dynamic-deadline-stack'][-1][0]):
-            job['dynamic-deadline-stack'].append([resources[critical_action[2]]['ceiling'][system['resources-remaining'][critical_action[2]]], critical_action[3]])
+            system['time'] + resources[critical_action[2]]['ceiling'][system['resources-remaining'][critical_action[2]]] < job['dynamic-deadline-stack'][-1][0]):
+            job['dynamic-deadline-stack'].append([system['time'] + resources[critical_action[2]]['ceiling'][system['resources-remaining'][critical_action[2]]], critical_action[3]])
     else:
         system['resources-remaining'][critical_action[2]] += 1
         if job['dynamic-deadline-stack'][-1][1] == critical_action[3]:
