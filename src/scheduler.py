@@ -47,9 +47,12 @@ def create_jobs(tasks, overrun):
         task_id += 1
     
     jobs.append({ 'arrival-time': 100000.0, 'finish': True })
-    if overrun:
-        jobs.append({ 'arrival-time': 50000.0, 'overrun': True })
     jobs = sorted(jobs, key=lambda x: x['arrival-time'])
+    if overrun:
+        for job in jobs:
+            if job['arrival-time'] > 50000.0 and job['criticality'] == 'HC':
+                job['overrun'] = True
+                break
     return jobs
 
 
@@ -140,11 +143,6 @@ def time_forward(system, jobs, resources, scheduling):
         system['state'] = 'finished'
         return
     
-    if not system['overrun'] and system['next-job'] > 0 and 'overrun' in jobs[system['next-job'] - 1]:
-        system['overrun'] = True
-        prune_ready_lc_jobs(system)
-        return
-    
     if system['running-job'] == None:
         system['time'] = jobs[system['next-job']]['arrival-time']
         activate_next_job(system, jobs)
@@ -175,9 +173,14 @@ def time_forward(system, jobs, resources, scheduling):
                 scheduling.append([system['running-job']['task'], [system['time'], system['time'] + get_wcet_running_job(system) - system['running-job']['completion']]])
             system['time'] += get_wcet_running_job(system) - system['running-job']['completion']
             system['running-job']['completion'] = get_wcet_running_job(system)
-            finish_running_job(system)
-            select_running_job(system)
-            return
+            if system['overrun'] == True or 'overrun' not in system['running-job']:
+                finish_running_job(system)
+                select_running_job(system)
+                return
+            else:
+                system['overrun'] = True
+                prune_ready_lc_jobs(system)
+                return
         else:
             if jobs[system['next-job']]['arrival-time'] - system['time'] > 10.0:
                 scheduling.append([system['running-job']['task'], [system['time'], jobs[system['next-job']]['arrival-time']]])
